@@ -6,24 +6,24 @@ import { ScaffoldEthAppWithProviders } from "~~/components/ScaffoldEthAppWithPro
 import { ThemeProvider } from "~~/components/ThemeProvider";
 import "~~/styles/globals.css";
 
-const baseUrl = "https://grants.buidlguidl.com";
+const baseUrl = "https://web3turkiyetoplulugu.vercel.app";
 const imageUrl = `${baseUrl}/thumbnail.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "BuidlGuidl Grants",
-    template: "%s | BuidlGuidl Grants",
+    default: "Web3 Türkiye Topluluğu",
+    template: "%s | Web3 Türkiye Topluluğu",
   },
   description:
-    "BuidlGuidl Grants offers funding to its members to build meaningful projects across the Ethereum ecosystem.",
+    "Türkiye'deki Web3 girişimlerini ve topluluk üyelerini tanıtan platform. DeFi'den NFT'lere, blockchain oyunlarından altyapı projelerine kadar geniş bir yelpazede girişimler.",
   openGraph: {
     title: {
-      default: "BuidlGuidl Grants",
-      template: "%s | BuidlGuidl Grants",
+      default: "Web3 Türkiye Topluluğu",
+      template: "%s | Web3 Türkiye Topluluğu",
     },
     description:
-      "BuidlGuidl Grants offers funding to its members to build meaningful projects across the Ethereum ecosystem.",
+      "Türkiye'deki Web3 girişimlerini ve topluluk üyelerini tanıtan platform. DeFi'den NFT'lere, blockchain oyunlarından altyapı projelerine kadar geniş bir yelpazede girişimler.",
     images: [
       {
         url: imageUrl,
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [imageUrl],
     title: {
-      default: "BuidlGuidl Grants",
-      template: "%s | BuidlGuidl Grants",
+      default: "Web3 Türkiye Topluluğu",
+      template: "%s | Web3 Türkiye Topluluğu",
     },
     description:
-      "BuidlGuidl Grants offers funding to its members to build meaningful projects across the Ethereum ecosystem.",
+      "Türkiye'deki Web3 girişimlerini ve topluluk üyelerini tanıtan platform. DeFi'den NFT'lere, blockchain oyunlarından altyapı projelerine kadar geniş bir yelpazede girişimler.",
   },
   icons: {
     icon: [{ url: "/favicon.png", sizes: "32x32", type: "image/png" }],

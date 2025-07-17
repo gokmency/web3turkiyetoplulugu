@@ -59,14 +59,9 @@ export const Footer = () => {
           <ul className="menu menu-horizontal w-full">
             <div className="flex justify-center items-center gap-2 text-sm w-full">
               <div className="text-center">
-                <a
-                  href="https://grainz.vercel.app"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link"
-                >
-                  built by GRAINZ
-                </a>
+                <span className="text-gray-600">
+                  Web3 Türkiye Topluluğu
+                </span>
               </div>
             </div>
           </ul>
