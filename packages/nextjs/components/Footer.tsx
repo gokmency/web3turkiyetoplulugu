@@ -18,11 +18,11 @@ export const Footer = () => {
                 <div className="text-4xl">✨</div>
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold text-secondary-content leading-tight">
-                Anlamlı projeleri
+                 Projenizi 
                 <br />
-                Türkiye Web3 ekosisteminde
+                Türkiye Web3 ekosistemine duyurun
                 <br />
-                fonlama
+                fonlama ve destek alın
               </h2>
               <p className="text-secondary-content text-lg leading-relaxed max-w-md">
                 Türkiye Web3 Directory, Türkiye'deki blockchain projelerini destekler ve 
@@ -31,7 +31,7 @@ export const Footer = () => {
               <div className="pt-4">
                 <Link href="/projects">
                   <button className="btn btn-primary btn-lg px-8 py-3 text-lg font-semibold rounded-full hover:shadow-lg transition-all duration-200">
-                    Daha fazla bilgi
+                    Projenizi ekleyelim
                   </button>
                 </Link>
               </div>
@@ -60,7 +60,7 @@ export const Footer = () => {
             <div className="flex justify-center items-center gap-2 text-sm w-full">
               <div className="text-center">
                 <span className="text-gray-600">
-                  Web3 Türkiye Topluluğu
+                  Built with ❤️ by <a href="https://grainz.space" target="_blank" rel="noopener noreferrer">GRAINZ </a>
                 </span>
               </div>
             </div>
